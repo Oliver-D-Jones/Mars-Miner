@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  <title>Martian Miner</title>
+</head>
+<body>
+  <header>
+    <div class="row text-center">
+      <div class="col-12 bg-primary">
+        <h3>
+          Martian Miners
+        </h3>
+      </div>
+    </div>
+  </header>
+  <main class="text-light" id="main">
+    <div class="container-fluid">
+      <div class="row d-flex text-center" style="justify-content: space-evenly;">
+        <div class="col-12">
+          <h3>
+            The year is 2107 and after hundreds of years of modern living, people of Earth are facing shortages in natural resources. Mars is beginning to be colonized but it is not feasible to transport all 11 billion humans to Mars. 
+          </h3>
+          <h4>
+            Your goal will be to select a miner who can return as much raw material to back to the people of Earth... 
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid profiles">
+      <div class="row d-flex text-center" style="justify-content: space-evenly;">
+        <div class="col- col-md-3">
+          <div id="doug">
+          </div>
+          <p>
+           <img src="doug.jfif" class="img-fluid avatar" alt="doug">
+          </p>
+        </div>
+        <div class="col- col-md-3">
+          <div id="fox">
+          </div>
+          <p>
+            <img src="fox.jfif" class="img-fluid avatar" alt="fox">
+          </p>
+        </div>
+        <div class="col- col-md-3">
+          <div id="joe">
+          </div>
+          <p>
+            <img src="joe.jfif" id="joe_img" class="img-fluid avatar" alt="joe">
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section id="game_ui">
+    <div id="table_container">
+
+    </div>
+    <div class="container-fluid my-0">
+      <div class="row d-flex text-center">
+        <div class="col-5" id="metals">
+
+        </div>
+        <div class="col-2">
+          <p><img id="avatar_img" src="joe.jfif" class="img-fluid" alt=""></p>
+        </div>
+        <div class="col-5" id="upgrades">
+          <h5>EQUIPMENT UPGRADES</h5>
+          <a href="#" data-toggle="tooltip" id="locomotive" title="Locomotives will be neccessary to have in order to transport your mining load to the surface of Mars."><p><span>Locomotive 2.0: $1000</span><span>Available : 4</span></p></a>
+          <a href="#" data-toggle="tooltip" id="ventilator" title="Ventilators are needed in order keep your crew safe from dangerous gases that can build up in the mine."><p><span>Ventilator 2.0 : $500</span><span>Available : 8</span></p></a>
+          <a href="#" data-toggle="tooltip" id="borer" title="Boring machines open up access to the mine by boring into mine's wall, thus exposing more mining material."><p><p><span>Tunnel Borer 2.0: $1200</span><span>Available : 5</span></p></p></a>
+          <a href="#" data-toggle="tooltip" id="drill" title="Hydraulic drills will increase the amount of exposable mining material."><p><p><span>Hydraulic Drill 2.0 : $320</span><span>Available : 10</span></p></p></a>
+        </div>
+      </div>
+    </div>
+  </section>
+      <!-- Optional JavaScript -->
+      <script src="genHTML.js"></script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+      <script src="app.js"></script>
+</body>
+</html>

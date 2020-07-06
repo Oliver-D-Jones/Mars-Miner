@@ -1,0 +1,91 @@
+body{
+  background-image: url("mars.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.profiles p{
+  padding: 0px;
+  margin-bottom: 0px;
+  color: antiquewhite;
+  text-shadow:2px 3px 1px rgb(44, 62, 224);
+  font-weight: bolder;
+}
+.profiles p img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 5px 10px #5526ad; 
+  border: 10px outset #FFD700;
+  border-radius: 10%;
+  box-shadow: 14px 14px 6px #222222;
+  cursor: pointer;
+}
+#table_container{
+  width: 100%;
+}
+#table{
+  width:100%;
+  background: transparent;
+  cursor: pointer;
+}
+#game_ui{
+  color: skyblue;
+  display: none;
+}
+td{
+  padding: 0px;
+  width: 3px;
+  height: 6px;
+  outline: solid 1px black;
+}
+tr{
+  padding: 0px;
+  margin: 0px;
+}
+.area{
+  background-color: grey;
+  opacity: .5;
+}
+.mine{
+  background-color: black;
+  opacity: 1;
+}
+.platinum{
+  background-color: silver;
+  opacity: 1;
+}
+.copper{
+  background-color: #B87333;
+  opacity: 1;
+}
+.gold{
+  background-color: gold;
+  opacity: 1;
+}
+#avatar_img{
+  margin-top: 4px;
+  margin-bottom: 0px;
+  border: 10px outset mediumslateblue;
+  border-radius: 10%;
+  cursor: none;
+}
+#metals{
+  background-color: lightslategrey;
+  color: black;
+  font-weight: bolder;
+}
+#game_ui span{
+  padding-right: 1rem;
+}
+#game_ui .row{
+  background-color: powderblue;
+}
+#upgrades{
+  background-color: lightslategrey;
+  color: black;
+}
+#upgrades p{
+  color: black;
+  font-weight: bold;
+}
